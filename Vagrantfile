@@ -43,10 +43,10 @@ Vagrant.configure("2") do |config|
       'rbenv' => {
         'user_installs' => [
           { 'user' => 'vagrant',
-            'rubies' => ['2.0.0-p247'],
-            'global' => '2.0.0-p247',
+            'rubies' => ['2.0.0-p353'],
+            'global' => '2.0.0-p353',
             'gems' => {
-              '2.0.0-p247' => %w(bundler pg).collect{|gem_name| { 'name' => gem_name } }
+              '2.0.0-p353' => %w(bundler pg).collect{|gem_name| { 'name' => gem_name } }
             }
           }
         ]
